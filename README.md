@@ -45,3 +45,17 @@ if (condicion) {
 else if (nueva condicion){} //podemos poner muchos de estos//
 
 else {} //la condición es que el anterior if sea falso
+
+Array: varArray = ["string", 23, "sodaEstereo"]; 
+Llamar Array : varArray[0]; //si llamo un valor fuera de lo inicializado me da undefined
+//si llamo al array sin indice, me devuelve todo el array Ej. "varArray"
+
+array asociativo: son objetos (parecido a formato json) Ej.
+let programador = {
+  nombre: "Tomás",
+  apellido: "Achával",
+  edad: 20
+};
+llamado array: programador["nombre"] //esto devuelve Tomás pero si pongo "programador" sin indicar el indice, me devuelve [object Object] 
+
+//En una variable puedo poner código html//
