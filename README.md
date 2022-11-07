@@ -59,3 +59,15 @@ let programador = {
 llamado array: programador["nombre"] //esto devuelve Tomás pero si pongo "programador" sin indicar el indice, me devuelve [object Object] 
 
 //En una variable puedo poner código html//
+
+while (condicion) {} //se puede usar el break;
+
+do {} while (condicion) 
+
+for(let i = 0; i<n; i++){} //la sentencia "continue;" se usa para saltear una iteración y continuar con el resto del bucle
+
+for(nombreVariable in nombreArray) {} // devuelve la posición en la que se encuentra un elemento (también muestra el nombre de las propiedades que tenga el array)
+
+for(nombreVariable of nombreArray) {} // muestra los elementos 
+
+sentencia label:asocia un bucle (menos foreach) a un nombre para terminarlo cuando queramos -> nombreParaElBucle: *estructura de bucle*  (con esto podemos actuar sobre este bucle aunque nos encontremos dentro de un bucle o secuencia hijo)
