@@ -22,3 +22,26 @@ variable.concat(otraVariable) : si la primera variable es un string le agrega el
 concatenar con ${}:
 variable1 = "texto 2";
 variable2 = `texto 1 ${variable1} texto 3`;
+
+operadores de comparación:
+- Igualdad : == (no considera el tipo de dato)
+- Inigualdad : !=
+- Identidad : === (estrictamente iguales, mismo tipo de dato)
+- No estrictamente igual : !== 
+- >, >=, <, <=
+
+Operadores lógicos:
+- AND: exp1 && exp2
+- OR: exp1 || exp2
+- NOT: !exp1
+
+parseInt() : convierte en entero //falta//
+
+condicionales:
+if (condicion) {
+  bloque codigo
+}
+
+else if (nueva condicion){} //podemos poner muchos de estos//
+
+else {} //la condición es que el anterior if sea falso
